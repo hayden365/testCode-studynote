@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1685204402528" clover="3.2.0">
-  <project timestamp="1685204402528" name="All files">
-    <metrics statements="46" coveredstatements="42" conditionals="9" coveredconditionals="9" methods="6" coveredmethods="5" elements="61" coveredelements="56" complexity="0" loc="46" ncloc="46" packages="2" files="4" classes="4"/>
-    <package name="product">
-      <metrics statements="36" coveredstatements="32" conditionals="8" coveredconditionals="8" methods="5" coveredmethods="4"/>
-      <file name="product_client.js" path="C:\Users\ysmh1\Documents\dev\testCode-studynote\src\mock\product\product_client.js">
+<coverage generated="1685267601479" clover="3.2.0">
+  <project timestamp="1685267601479" name="All files">
+    <metrics statements="26" coveredstatements="22" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="2" elements="33" coveredelements="28" complexity="0" loc="26" ncloc="26" packages="2" files="3" classes="3"/>
+    <package name="mock.user">
+      <metrics statements="25" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="2"/>
+      <file name="user_client.js" path="C:\Users\ysmh1\Documents\dev\testCode-studynote\src\mock\user\user_client.js">
         <metrics statements="9" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -16,54 +16,31 @@
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
       </file>
-      <file name="product_service.js" path="C:\Users\ysmh1\Documents\dev\testCode-studynote\src\mock\product\product_service.js">
-        <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="user_service.js" path="C:\Users\ysmh1\Documents\dev\testCode-studynote\src\mock\user\user_service.js">
+        <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-      </file>
-      <file name="product_service_no_di.js" path="C:\Users\ysmh1\Documents\dev\testCode-studynote\src\mock\product\product_service_no_di.js">
-        <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
+        <line num="8" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="product.test">
-      <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="stub_product_client.js" path="C:\Users\ysmh1\Documents\dev\testCode-studynote\src\mock\product\test\stub_product_client.js">
-        <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+    <package name="stack">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="stack.js" path="C:\Users\ysmh1\Documents\dev\testCode-studynote\src\stack\stack.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
       </file>
     </package>
   </project>
